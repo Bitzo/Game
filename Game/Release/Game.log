@@ -1,0 +1,32 @@
+﻿生成启动时间为 2016/6/9 12:37:43。
+     1>项目“E:\MyWork\C\project\Game\Game\Game.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Game.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\Visual Studio 2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /D _ATL_DLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Game.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PaintMonster.cpp
+         PaintMonster.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MyWork\C\project\Game\Release\Game.exe" /INCREMENTAL:NO /NOLOGO Msimg32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\MyWork\C\project\Game\Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyWork\C\project\Game\Release\Game.lib" /MACHINE:X86 Release\Game.res
+         Release\Game.obj
+         Release\Map.obj
+         Release\Monster.obj
+         Release\PaintMonster.obj
+         Release\people.obj
+         Release\stdafx.obj
+         Release\WM_Paint.obj
+         正在生成代码
+         已完成代码的生成
+         Game.vcxproj -> E:\MyWork\C\project\Game\Release\Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\MyWork\C\project\Game\Release\Game.exe;#1" /manifest Release\Game.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Game.unsuccessfulbuild”。
+         正在对“Release\Game.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\MyWork\C\project\Game\Game\Game.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.67
